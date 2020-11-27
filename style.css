@@ -275,6 +275,60 @@ article h3 {
 }
 
 
+.blog {
+  margin-top: 80px;
+  padding-top: 10px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.blog figure {
+  margin-left: 0;
+  margin-rigth: 0;
+}
+
+.blog-posts {
+  min-width: 100px;
+  width: 250px;
+  margin: 10px;
+}
+
+.space_and_astrobnomy {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 3;
+  flex-shrink: 0;
+  margin-right: 7%;
+}
+
+.editors_pick {
+  margin-top: 10px;
+  margin-right: 7%;
+  display: flex;
+}
+
+.most_popular {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  min-width: 300px;
+}
+
+.most-pop-titles {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid grey;
+  color: grey;
+  font-weight: lighter;
+  max-width: 300px;
+  font-family: 'nyt-cheltenham', sans-serif;
+}
+
+.most-pop-titles:hover {
+  text-decoration: underline;
+}
+
 
 
 
