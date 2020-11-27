@@ -126,6 +126,50 @@ article h3 {
 }
 
 
+
+.inflation-theory {
+  display: block;
+  max-width: 1150px;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  font-family: 'nyt-cheltenham', sans-serif;
+}
+
+.inflation-grid figure {
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  position: absolute;
+  z-index: -1;
+}
+
+.inflation-grid div {
+  position: relative;
+  width: inherit;
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  flex-basis: auto;
+  flex-shrink: 0;
+  justify-content: space-evenly;
+  z-index: 1;
+}
+
+.inflation-grid div p {
+  margin-top: 180px;
+  padding: 5px;
+  font-size: small;
+  width: 70%;
+}
+
+.p2-grid {
+  margin-top: 50px;
+}
+
+
+
+
 .title {
   width: 600px;
   margin-left: auto;
@@ -178,6 +222,12 @@ article h3 {
   margin: auto;
   color: rgb(61, 10, 10);
 }
+
+
+
+
+
+
 
 
 .footer-part1 {
