@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+    font-family: "nyt-franklin", helvetica, arial, sans-serif;
+    display: block;
+    height: 100vh;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    display: inline;
+  }
+  
+  .main-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 15px 2px;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #e2e2e2;
+    margin: 0 auto;
+    max-width: 1605px;
+    height: 36px;
+  }
+  .nav-center {
+    display: flex;
+    align-items: center;
+  }
