@@ -1,3 +1,12 @@
+.figure-3{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.figure-3 img{
+  width: 100%;
+}
+
 body {
   background-color: white;
   font-family: "nyt-franklin", helvetica, arial, sans-serif;
@@ -9,6 +18,10 @@ a {
   text-decoration: none;
   color: black;
   display: inline;
+}
+
+i {
+  padding: 5px;
 }
 
 .main-nav {
@@ -112,6 +125,8 @@ img {
   align-self: center;
   justify-content: space-between;
 }
+
+
 
 article p,
 h3 {
@@ -238,6 +253,26 @@ article h3 {
   color: rgb(61, 10, 10);
 }
 
+.container {
+  margin: 0 20%;
+}
+
+.comments {
+  display: inline-flex;
+  justify-content: space-between;
+  min-width: 100%;
+  margin-top: 20px;
+}
+
+.comment-btn {
+  background-color: #557b92;
+  border: none;
+  color: white;
+  padding: 0 80px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 8px;
+}
 
 
 
