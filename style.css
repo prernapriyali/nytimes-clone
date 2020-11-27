@@ -27,6 +27,7 @@ body {
   .nav-center {
     display: flex;
     align-items: center;
+    width: 250px;
   }
   .button {
     border-radius: 3px;
