@@ -1,109 +1,137 @@
 body {
-    background-color: white;
-    font-family: "nyt-franklin", helvetica, arial, sans-serif;
-    display: block;
-    height: 100vh;
-  }
-  
-  a {
-    text-decoration: none;
-    color: black;
-    display: inline;
-  }
-  
-  .main-nav-bar {
-    display: flex;
-    justify-content: space-between;
-    padding: 4px 15px 2px;
-    position: sticky;
-    background-color: white;
-    top: 0;
-    left: 0;
-    border-bottom: 1px solid #e2e2e2;
-    margin: 0 auto;
-    max-width: 1605px;
-    height: 36px;
-  }
-  .nav-center {
-    display: flex;
-    align-items: center;
-    width: 250px;
-  }
-  .button {
-    border-radius: 3px;
-    cursor: pointer;
-    transition: all 0.6s ease 0s;
-    vertical-align: middle;
-    background-color: rgb(86, 123, 149);
-    border: 1px solid rgb(50, 104, 145);
-    color: rgb(255, 255, 255);
-    font-size: 11px;
-    line-height: 11px;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    padding: 11px 12px 8px;
-    text-transform: uppercase;
-    margin: 1px;
-  }
-  
-  .button:hover {
-    background-color: rgb(50, 104, 145);
-    border: 1px solid rgb(50, 104, 145);  
+  background-color: white;
+  font-family: "nyt-franklin", helvetica, arial, sans-serif;
+  display: block;
+  height: 100vh;
 }
-.title {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-    line-height: 3rem;
-    font-weight: 700;
-    font-style: italic;
-    }
-  
-    .center {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-    }
-    .media{
-      float: right;
-      size:20pc;
-  
-    }
-    .text{
-      text-align: center;
-    }
-  .article{
-    text-align: center;
-  }
-  .youtube{
-    text-align: center;
-  }
-  .article1{
-    margin-top: 40px;
-    margin-left: 20%;
-    margin-right: 20%;
-   text-align: center;
-  }
-  .image{
-    text-align: center;
-  }
-  .article2{
-    margin-top: 40px;
-    margin-left: 20%;
-    margin-right: 20%;
-   text-align: center;
-  }
-  .referances {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.76rem;
-    margin: auto;
-    color: rgb(61, 10, 10);
-  }
 
-  
+a {
+  text-decoration: none;
+  color: black;
+  display: inline;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid ghostwhite;
+}
+
+.main-nav button {
+  margin: 0 5px;
+  padding: 5px 15px; 
+  color: white;
+  font-weight: 600;
+  border: 0;
+  border-radius: 3px;
+  background-color: rgb(86, 123, 149);
+}
+
+.main-nav a {
+  font-size: large;
+  font-weight: 800;
+  color: black;
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+.main-nav i {
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.main-nav i:hover {
+  background-color: ghostwhite;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.main-nav button:hover {
+  background-color: rgb(50, 104, 145);
+}
+
+.logo {
+  max-width: 270px;
+}
+
+.inner-width {
+  margin: 0% 20%;
+}
+
+main {
+  display: flex;
+  background-color: teal;
+  flex-direction: column;
+  margin: 0% 11%;
+  justify-items: center;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+
+.title {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.media {
+  float: right;
+  size: 20pc;
+}
+
+.text {
+  text-align: center;
+}
+
+.article {
+  text-align: center;
+}
+
+.youtube {
+  text-align: center;
+}
+
+.article1 {
+  margin-top: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.image {
+  text-align: center;
+}
+
+.article2 {
+  margin-top: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.referances {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.76rem;
+  margin: auto;
+  color: rgb(61, 10, 10);
+}
+
+
 .footer-part1 {
   display: flex;
   justify-content: space-between;
@@ -114,7 +142,7 @@ body {
 
 .footer-part1 a {
   font-size: 0.76em;
-  padding-right: 125px;  
+  padding-right: 125px;
 }
 
 .footer-endlists {
@@ -129,6 +157,7 @@ body {
   padding-bottom: 50px;
   font-size: 0.8em;
 }
+
 .footer-endlists li:hover {
   text-decoration: underline;
 }
@@ -146,7 +175,7 @@ body {
 }
 
 .menu-headings {
-  font-size:24px;
+  font-size: 24px;
   font-weight: bold;
 }
 
@@ -157,7 +186,7 @@ body {
   bottom: 0;
   height: 55px;
   width: 96%;
-   border-top: 1px solid black;
+  border-top: 1px solid black;
 }
 
 .bottom-bar {
@@ -190,7 +219,7 @@ body {
   margin-top: 12px;
 }
 
-.bottom-navbar{
+.bottom-navbar {
   display: inline-flex;
   flex-direction: row;
   list-style: none;
@@ -207,5 +236,4 @@ body {
   margin: auto;
   color: #666;
 }
-
 
