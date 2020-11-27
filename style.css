@@ -66,3 +66,32 @@ body {
       margin-right: auto;
       width: 50%;
     }
+    .media{
+      float: right;
+      size:20pc;
+  
+    }
+    .text{
+      text-align: center;
+    }
+  .article{
+    text-align: center;
+  }
+  .youtube{
+    text-align: center;
+  }
+  .article1{
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+   text-align: center;
+  }
+  .image{
+    text-align: center;
+  }
+  .article2{
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+   text-align: center;
+  }
