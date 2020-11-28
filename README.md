@@ -1,16 +1,16 @@
-
+This project is clone copy of NYT article and it is made by using html and CSS.
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
 
 > One paragraph statement about the project.
-![screenshot](./app_screenshot.png)
+![screenshot](./sampleimg.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
+- HTML and CSS
 - Frameworks
 - Technologies used
 
@@ -45,13 +45,13 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- GitHub: [@githubhandle](https://github.com/prernapriyali)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- GitHub: [@githubhandle](https://github.com/sohaibya)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
