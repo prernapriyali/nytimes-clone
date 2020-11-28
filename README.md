@@ -1,10 +1,10 @@
-This project is clone copy of NYT article and it is made by using html and CSS.
+This project is clone copy of NYT article and it is made by using html and CSS.Flex box are mostly used in CSS for styling.
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
 
 > One paragraph statement about the project.
-![screenshot](./sampleimg.png)
+![screenshot](images/sampleimg.png)
 
 Additional description about the project and its features.
 
