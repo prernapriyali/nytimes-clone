@@ -287,7 +287,7 @@ article h3 {
 
 .blog figure {
   margin-left: 0;
-  margin-rigth: 0;
+  margin-right: 0;
 }
 
 .blog-posts {
@@ -418,7 +418,7 @@ article h3 {
   margin-top: 12px;
 }
 
-.bottom-navbar {
+.bottom-navbar1 {
   display: inline-flex;
   flex-direction: row;
   list-style: none;
