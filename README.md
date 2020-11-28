@@ -4,7 +4,7 @@ This project is clone copy of NYT article and it is made by using html and CSS.F
 # Project Name
 
 > One paragraph statement about the project.
-![screenshot](images/sampleimg.png)
+![](images/sampleimg.png)
 
 Additional description about the project and its features.
 
